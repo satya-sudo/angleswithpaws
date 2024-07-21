@@ -7,11 +7,11 @@ export default {
 }
 
 export const contactDetails = {
-    email: 'shikha.srivastava31@gmail.com',
+    email: 'Angelswithpaws.ngo@gmail.com',
     address: 'SY NO 25/3, Taluk, Kalanayakakanahalli Village, Kasaba Hobli, Anekal, Telagarahalli, Karnataka 562106',
-    phone: '+91 8002715425',
-    addresslink: 'https://maps.app.goo.gl/ZxdsGunXJyK4j9446" target="_blank" rel="noopener',
-    instagram: '',
-    facebook: '',
-    whatsapp: '',
+    phone: '+91 9845101180',
+    addresslink: 'https://g.co/kgs/eD7QkxN',
+    instagram: 'https://www.instagram.com/angelswithpaws.bangalore?igsh=MXZoZjVmbG8xcHg4aw==https://www.instagram.com/angelswithpaws.bangalore?igsh=MXZoZjVmbG8xcHg4aw==',
+    facebook: 'https://www.facebook.com/share/79Rm4GALxXNeskTE/?mibextid=qi2Omg',
+    whatsapp: 'https://wa.me/+919845101180',
 }

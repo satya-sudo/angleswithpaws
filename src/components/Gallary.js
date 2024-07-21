@@ -38,6 +38,12 @@ const images = [
   { url: `${process.env.PUBLIC_URL}/gallary/pic4.jpg` },
   { url: `${process.env.PUBLIC_URL}/gallary/pic5.jpg` },
   { url: `${process.env.PUBLIC_URL}/gallary/pic6.jpg` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic7.png` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic8.png` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic9.png` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic10.png` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic11.png` },
+  { url: `${process.env.PUBLIC_URL}/gallary/pic12.png` },
   // Add more images as needed as we move to server side , this logic will move to be
 ];
 
