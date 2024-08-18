@@ -1,7 +1,7 @@
 export default {
     HOME: {text:'About', ref: 'about', disabled: false},
     GALLARY: {text:'Gallary', ref: 'gallary',  disabled: false},
-    MONTHLY: {text:'Monthly Reports', ref: 'monthly',  disabled: true},
+    MONTHLY: {text:'Reports', ref: 'monthly',  disabled: false},
     EVENTS: {text:'Events', ref: 'events',  disabled: true},
     CONTACT: {text:'contact us', ref: 'contact'}
 }
