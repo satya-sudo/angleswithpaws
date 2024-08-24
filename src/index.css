@@ -8,11 +8,47 @@
     background-color: #f3dfda;
 } 
 .Contact__container {
+    margin-top: 0px !important;
     padding: 35px 35px 55px 35px ;
     background-color: #FDF6F0;
 }
+.Stories__container {
+    background-color:#D8C3A5 !important;
+    padding: 35px 35px 55px 35px ;
+}
+
 .Footer {
     background-color: rgb(78,52,46);
     padding: 10px;
     color: #f8f5f5;
+}
+
+.chip-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+.chip {
+margin: 10px;
+padding: 10px 20px;
+font-size: 16px;
+background-color: #ffffff;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.chip:hover {
+background-color: #e0e0e0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.chip a {
+text-decoration: none;
+color: #333;
+}
+
+.card-media:hover {
+transform: scale(1.05);
 }
