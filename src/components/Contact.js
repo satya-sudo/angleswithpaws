@@ -98,7 +98,7 @@ const Contact = React.forwardRef((props, ref) => {
                     <Typography ref={ref} variant="h4" gutterBottom>
                         Get In Touch
                     </Typography>
-                    <Grid container spacing={6}>
+                    <Grid spacing={6}>
                         {/* Right Column - Contact Form */}
                         <Grid item xs={12} md={8}>
                             <form noValidate autoComplete="off" onSubmit={handleSubmit}>
@@ -160,9 +160,9 @@ const Contact = React.forwardRef((props, ref) => {
                             </form>
                         </Grid>
                         {/* Left Column - Contact Details */}
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={4} style={{ marginTop: '1rem'}} >
                             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                                <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 2 }}>
+                                <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 2, flexWrap: 'wrap'  }}>
                                     <Room sx={{ mr: 1 }} />
                                     <Typography variant="body1" sx={{ fontWeight: 'bold', minWidth: '120px' }}>
                                         Address:
@@ -171,7 +171,7 @@ const Contact = React.forwardRef((props, ref) => {
                                         {contactDetails.address}
                                     </Typography>
                                 </Box>
-                                <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 2 }}>
+                                <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 2,  flexWrap: 'wrap'  }}>
                                     <Mail sx={{ mr: 1 }} />
                                     <Typography variant="body1" sx={{ fontWeight: 'bold', minWidth: '120px' }}>
                                         Email:
@@ -180,7 +180,7 @@ const Contact = React.forwardRef((props, ref) => {
                                         {contactDetails.email}
                                     </Typography>
                                 </Box>
-                                <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
+                                <Box sx={{ display: 'flex', alignItems: 'flex-start',  flexWrap: 'wrap'  }}>
                                     <Phone sx={{ mr: 1 }} />
                                     <Typography variant="body1" sx={{ fontWeight: 'bold', minWidth: '120px' }}>
                                         Phone:

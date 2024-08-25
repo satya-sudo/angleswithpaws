@@ -41,8 +41,7 @@ export const dogStories = [
       title: 'Zack',
       image: `${process.env.PUBLIC_URL}/stories/Zack.jpeg`,
       description: `
-      He has a zero tolerance policy for the dogs he doesn’t like..even when they cross his path, he continues to growl and bark at them.
-      He was found walking alone on a busy road, as a small pup. He loves to tease and doesn’t like new people. 
+      Zack has come far from the streets, and it’s clear he's found a loving place among certain humans and dogs who bring out his happy side. Even though weary towards some he is a reminder of his journey and strength. 
       `
     },
     // Add more stories here

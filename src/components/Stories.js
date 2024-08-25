@@ -11,15 +11,16 @@ const Stories = ({ stories, ref }) => {
           <Typography variant="h4" gutterBottom sx={{ padding: '30px 10px 30px 0px;', textAlign: 'left', color: '#3e3e3e', marginBottom: '2.75rem' }}>
             Get to Know Them...
           </Typography>
-          <Grid container spacing={6}>
+          <Grid spacing={6}>
             {stories.map((story, index) => (
               <Grid
                 container
                 key={index}
-                spacing={4}
+                spacing={2}
                 direction={index % 2 === 0 ? 'row' : 'row-reverse'}
                 alignItems="center"
                 justifyContent="center"
+                padding='16px'
               >
                 <Grid item xs={12} md={6}>
                   <CardMedia

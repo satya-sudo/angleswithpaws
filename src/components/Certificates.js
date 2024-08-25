@@ -5,8 +5,8 @@ import Box from '@mui/material/Box';
 
 const CertificateChips = () => {
   const certificates = [
-    { name: 'Order for registeration', link: `${process.env.PUBLIC_URL}/certificates/10ac1.pdf` },
-    { name: 'Order for approval', link: `${process.env.PUBLIC_URL}/certificates/10ac2.pdf`  },
+    { name: 'Registeration', link: `${process.env.PUBLIC_URL}/certificates/10ac1.pdf` },
+    { name: 'Approval', link: `${process.env.PUBLIC_URL}/certificates/10ac2.pdf`  },
     { name: 'CSR Activites', link:`${process.env.PUBLIC_URL}/certificates/CSR.pdf`  },
     { name: 'TRUST DEED', link: `${process.env.PUBLIC_URL}/certificates/Trustdeed.pdf`  }    
   ]
