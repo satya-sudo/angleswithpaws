@@ -37,7 +37,7 @@ const reportsPath = [
   },
   {
     ref: `${process.env.PUBLIC_URL}/reports/August2024.pdf`,
-    name: 'July 2024',
+    name: 'August 2024',
   },
 ];
 
