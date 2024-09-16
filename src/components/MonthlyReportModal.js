@@ -24,7 +24,7 @@ const reportsPath = [
     name: 'April 2024',
   },
   {
-    ref: `${process.env.PUBLIC_URL}/reports/May2024.pdf`,
+    ref: `${process.env.PUBLIC_URL}/reports/may2024.pdf`,
     name: 'May 2024',
   },
   {
@@ -33,6 +33,10 @@ const reportsPath = [
   },
   {
     ref: `${process.env.PUBLIC_URL}/reports/July2024.pdf`,
+    name: 'July 2024',
+  },
+  {
+    ref: `${process.env.PUBLIC_URL}/reports/August2024.pdf`,
     name: 'July 2024',
   },
 ];
